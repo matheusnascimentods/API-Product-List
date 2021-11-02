@@ -15,26 +15,23 @@ public class Product {
 	private String cor;
 	
 	private double preco;
-	private double altura;
-	private double largura;
+	
+	private String categoria;
 	
 	private String url;
 	private String img;
 	
 	public Product() {}
 
-	public Product(String nome, String cor, double preco, double altura, double largura, String url, String img) {
+	public Product(String nome, String cor, double preco, String url, String img) {
 		
 		this.nome = nome;
 		this.cor = cor;
 		this.preco = preco;
-		this.altura = altura;
-		this.largura = largura;
 		this.url = url;
 		this.img = img;
 	
 	}
-
 	
 	public Long getId() {
 	
@@ -42,13 +39,11 @@ public class Product {
 	
 	}
 
-
 	public String getNome() {
 	
 		return nome;
 	
 	}
-
 	
 	public String getCor() {
 	
@@ -56,34 +51,23 @@ public class Product {
 	
 	}
 
-	
 	public double getPreco() {
 	
 		return preco;
 	
 	}
-
 	
-	public double getAltura() {
+	public String getCategoria() {
 	
-		return altura;
-	
-	}
-
-	
-	public double getLargura() {
-	
-		return largura;
+		return categoria;
 	
 	}
 
-	
 	public String getUrl() {
 	
 		return url;
 	
 	}
-
 
 	public String getImg() {
 	

@@ -12,7 +12,6 @@ public class Product {
 	private Long id;
 	
 	private String nome;
-	private String cor;
 	
 	private double preco;
 	
@@ -23,10 +22,9 @@ public class Product {
 	
 	public Product() {}
 
-	public Product(String nome, String cor, double preco, String url, String img) {
+	public Product(String nome, double preco, String url, String img) {
 		
 		this.nome = nome;
-		this.cor = cor;
 		this.preco = preco;
 		this.url = url;
 		this.img = img;
@@ -42,12 +40,6 @@ public class Product {
 	public String getNome() {
 	
 		return nome;
-	
-	}
-	
-	public String getCor() {
-	
-		return cor;
 	
 	}
 

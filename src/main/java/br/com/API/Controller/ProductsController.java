@@ -4,13 +4,12 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.API.Model.Product;
 import br.com.API.Repository.ProductRepository;
 
-@RestController @RequestMapping("/Product-List")
+@RestController
 public class ProductsController {
 	
 	@Autowired

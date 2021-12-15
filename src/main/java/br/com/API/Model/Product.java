@@ -13,6 +13,8 @@ public class Product {
 	
 	private String nome;
 	
+	private String loja;
+	
 	private double preco;
 	
 	private String categoria;
@@ -22,9 +24,10 @@ public class Product {
 	
 	public Product() {}
 
-	public Product(String nome, double preco, String url, String img) {
+	public Product(String nome, String loja, double preco, String url, String img) {
 		
 		this.nome = nome;
+		this.loja = loja;
 		this.preco = preco;
 		this.url = url;
 		this.img = img;
@@ -41,6 +44,12 @@ public class Product {
 	
 		return nome;
 	
+	}
+	
+	public String getLoja() {
+		
+		return loja;
+		
 	}
 
 	public double getPreco() {

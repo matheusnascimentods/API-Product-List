@@ -22,15 +22,18 @@ public class Product {
 	private String url;
 	private String img;
 	
+	private String status;
+	
 	public Product() {}
 
-	public Product(String nome, String loja, double preco, String url, String img) {
+	public Product(String nome, String loja, double preco, String url, String img, String status) {
 		
 		this.nome = nome;
 		this.loja = loja;
 		this.preco = preco;
 		this.url = url;
 		this.img = img;
+		this.status = status;
 	
 	}
 	
@@ -73,6 +76,12 @@ public class Product {
 	public String getImg() {
 	
 		return img;
+	
+	}
+
+	public String getStatus() {
+	
+		return status;
 	
 	}
 		

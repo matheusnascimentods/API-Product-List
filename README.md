@@ -1,38 +1,46 @@
-# api-product-list
+# ProductAPI
 
 <h2>Descrição:</h2>
 
-A API deste repositorio foi feita em `Java` com `Spring Boot` somente para ser "deployada" no Heroku.
-Pelo fato da minha conta no Heroku ser gratuita não poderei compartilhar a URL, pois o limite de requisições pode acabar sendo extrapolado então  deixarei a baixo uma maneira de utilizar a API logo abaixo.
+A API deste repositório foi desenvolvida em `Java` com `Spring Boot` e foi projetada para ser implantada no Heroku. Devido à minha conta no Heroku ser gratuita, não poderei compartilhar a URL publicamente, pois o limite de requisições pode ser excedido rapidamente. Portanto, abaixo estão as instruções para executar a API localmente.
 
 <h2>Pré-requisitos</h2>
 
-Antes de começar, verifique se sua maquina atende aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Para executar a aplicação é necessário ter o `JDK (Java Development Kit)` ou `Jre (Java Runtime Environment)` instalado na sua máquina.
+Antes de começar, certifique-se de que sua máquina atenda aos seguintes requisitos:
 
- 
+* **JDK (Java Development Kit)** ou **JRE (Java Runtime Environment)** instalado na sua máquina.
+
 <h2>Como Usar</h2>
 
-Para utilizar esta API em sua maquina e ver como ela funciona basta primeiro baixar o seguinte arquivo:
+Para utilizar esta API em sua máquina e ver como ela funciona, siga os passos abaixo:
 
-```Ruby                          
-api-product-list.jar
+1. **Baixe o arquivo JAR:**
+   - Baixe o arquivo `api-product-list.jar` disponível na única release deste repositório.
 
-```
-que esta disponível na única release deste repositório.
+2. **Execute a aplicação:**
+   - Abra o terminal e navegue até a pasta onde você baixou o arquivo.
+   - Execute o seguinte comando:
 
-Logo em seguida será necessário abrir o terminal e navegar até a pasta onde você baixou o arquivo e rodar o seguinte comando:
+     ```bash
+     java -jar api-product-list.jar
+     ```
 
-```Ruby                          
-java -jar api-product-list
+   - A aplicação começará a rodar.
 
-```
-e a aplicação começará a rodar.
+3. **Acesse a API:**
+   - Quando a aplicação terminar de iniciar, abra seu navegador e digite:
 
-E por fim, quando ela terminar de iniciar basta ir até o navegador e digitar:
+     ```bash
+     http://localhost:8080/
+     ```
+<h2>Estrutura do Projeto</h2>
 
-```Ruby                          
-http://localhost:8080/
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-```
+- **Java**: Linguagem de programação principal.
+- **Spring Boot**: Framework para desenvolvimento de aplicações Java.
+- **Heroku**: Plataforma de nuvem para deploy da aplicação.
+
+<h2>Contribuição</h2>
+
+Se você deseja contribuir para este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request. Toda contribuição é bem-vinda!
